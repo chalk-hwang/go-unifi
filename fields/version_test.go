@@ -14,6 +14,7 @@ import (
 
 func TestLatestUnifiVersion(t *testing.T) {
 	assert := assert.New(t)
+
 	require := require.New(t)
 
 	fwVersion, err := version.NewVersion("7.3.83+atag-7.3.83-19645")
@@ -74,10 +75,10 @@ func TestLatestUnifiVersion(t *testing.T) {
 		assert.Contains(query["filter"], firmwareUpdateApiFilter("product", unifiControllerProduct))
 
 		resp, err := json.Marshal(respData)
-		require.NoError(err)
+		assert.NoError(err)
 
 		_, err = rw.Write(resp)
-		require.NoError(err)
+		assert.NoError(err)
 	}))
 	defer server.Close()
 

@@ -4,6 +4,7 @@ import (
 	"bytes"
 	"context"
 	"encoding/json"
+	"errors"
 	"fmt"
 	"io"
 	"net/http"
@@ -12,7 +13,6 @@ import (
 	"path"
 	"strings"
 	"sync"
-	"errors"
 )
 
 const (

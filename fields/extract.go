@@ -153,7 +153,6 @@ func extractJSON(jarFile, fieldsDir string) error {
 			return fmt.Errorf("unable to marshal setting %q: %w", k, err)
 		}
 
-		/* trunk-ignore(golangci-lint/mnd) */
 		err = os.WriteFile(filepath.Join(fieldsDir, fileName), data, 0o755)
 		if err != nil {
 			return fmt.Errorf("unable to write new settings file: %w", err)

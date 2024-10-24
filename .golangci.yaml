@@ -42,3 +42,4 @@ linters:
     - 'scopelint'
     - 'structcheck'
     - 'varcheck'
+    - mnd

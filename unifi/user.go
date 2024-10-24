@@ -4,7 +4,6 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"errors"
 )
 
 // GetUserByMAC returns slightly different information than GetUser, as they

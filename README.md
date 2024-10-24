@@ -1,4 +1,4 @@
-# Unifi Go SDK [![GoDoc](https://godoc.org/github.com/sayedh/go-unifi?status.svg)](https://godoc.org/github.com/sayedh/go-unifi)
+# Unifi Go SDK [![GoDoc](https://godoc.org/github.com/chalk-hwang/go-unifi?status.svg)](https://godoc.org/github.com/chalk-hwang/go-unifi)
 
 This project is a fork of [paultyng/go-unifi](https://github.com/paultyng/go-unifi/), updated to support the latest Unifi Network versions.
 
@@ -8,7 +8,7 @@ This project is a fork of [paultyng/go-unifi](https://github.com/paultyng/go-uni
 - The original project supported Unifi Network versions up to 7.4.162.
 - In August 2024, this fork was created to update support for newer Unifi Network versions.
 - The code was regenerated using `go generate` in the `unifi` directory, which created many new changes to support Unifi Network version 8.3.32.
-- Work is ongoing to update the supplementary Terraform provider code at [sayedh/terraform-provider-unifi](https://github.com/sayedh/terraform-provider-unifi).
+- Work is ongoing to update the supplementary Terraform provider code at [chalk-hwang/terraform-provider-unifi](https://github.com/chalk-hwang/terraform-provider-unifi).
 - Latest UniFi Controler v8.4.59 is on release v1.0.1
 
 ## Versioning (from paultyng)
@@ -27,4 +27,4 @@ Still planning to dig through the bits some more later on.
 
 ## Contributing
 
-Contributions to update and improve this SDK for newer Unifi Network versions are welcome. Please submit issues and pull requests to the [GitHub repository](https://github.com/sayedh/go-unifi).
+Contributions to update and improve this SDK for newer Unifi Network versions are welcome. Please submit issues and pull requests to the [GitHub repository](https://github.com/chalk-hwang/go-unifi).

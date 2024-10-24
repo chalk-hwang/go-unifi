@@ -267,8 +267,8 @@ type DevicePortOverrides struct {
 	LldpmedNotifyEnabled         bool             `json:"lldpmed_notify_enabled,omitempty"`
 	MirrorPortIDX                int              `json:"mirror_port_idx,omitempty"` // [1-9]|[1-4][0-9]|5[0-6]
 	MulticastRouterNetworkIDs    []string         `json:"multicast_router_networkconf_ids,omitempty"`
-	NATiveNetworkID              string           `json:"native_networkconf_id,omitempty"`
-	Name                         string           `json:"name,omitempty"`     // .{0,128}
+	Name                         string           `json:"name,omitempty"` // .{0,128}
+	NativeNetworkID              string           `json:"native_networkconf_id,omitempty"`
 	OpMode                       string           `json:"op_mode,omitempty"`  // switch|mirror|aggregate
 	PoeMode                      string           `json:"poe_mode,omitempty"` // auto|pasv24|passthrough|off
 	PortIDX                      int              `json:"port_idx,omitempty"` // [1-9]|[1-4][0-9]|5[0-6]

@@ -55,6 +55,7 @@ var fieldReps = []replacement{
 	{"Minrssi", "MinRSSI"},
 	{"Monthdays", "MonthDays"},
 	{"Nat", "NAT"},
+	{"NATive", "Native"},
 	{"Networkconf", "Network"},
 	{"Networkgroup", "NetworkGroup"},
 	{"Pd", "PD"},

@@ -38,8 +38,8 @@ type PortProfile struct {
 	LldpmedEnabled               bool                  `json:"lldpmed_enabled"`
 	LldpmedNotifyEnabled         bool                  `json:"lldpmed_notify_enabled"`
 	MulticastRouterNetworkIDs    []string              `json:"multicast_router_networkconf_ids,omitempty"`
-	NATiveNetworkID              string                `json:"native_networkconf_id"`
 	Name                         string                `json:"name,omitempty"`
+	NativeNetworkID              string                `json:"native_networkconf_id"`
 	OpMode                       string                `json:"op_mode,omitempty"`  // switch
 	PoeMode                      string                `json:"poe_mode,omitempty"` // auto|off
 	PortKeepaliveEnabled         bool                  `json:"port_keepalive_enabled"`

@@ -41,6 +41,7 @@ type WLAN struct {
 	DTIMNg                      int                        `json:"dtim_ng,omitempty"`   // ^([1-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])$|^$
 	ElementAdopt                bool                       `json:"element_adopt"`
 	Enabled                     bool                       `json:"enabled"`
+	EnhancedIot                 bool                       `json:"enhanced_iot"`
 	FastRoamingEnabled          bool                       `json:"fast_roaming_enabled"`
 	GroupRekey                  int                        `json:"group_rekey,omitempty"` // ^(0|[6-9][0-9]|[1-9][0-9]{2,3}|[1-7][0-9]{4}|8[0-5][0-9]{3}|86[0-3][0-9][0-9]|86400)$
 	HideSSID                    bool                       `json:"hide_ssid"`
